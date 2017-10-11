@@ -1,14 +1,19 @@
 {
   "name": "basic-electron-react-boilerplate",
-  "version": "0.7.0",
-  "description": "Minimal and modern react+electron+webpack boilerplate",
-  "author": "Phillip Barbiero",
-  "homepage": "https://github.com/pbarbiero/basic-electron-react-boilerplate",
+  "productName": "ElectronNew",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "author": "Alexandre Nicastro",
+  "license": "SEE LICENSE IN LICENSE.MD",
+  "engines": {
+    "node": ">=8.0.0",
+    "npm": ">=5.0.0"
+  },
+  "homepage": "https://github.com/alexxnica/basic-electron-react-boilerplate",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pbarbiero/basic-electron-react-boilerplate.git"
+    "url": "https://github.com/alexxnica/basic-electron-react-boilerplate.git"
   },
-  "license": "MIT",
   "main": "main.js",
   "scripts": {
     "prod": "webpack --config webpack.build.config.js && electron --noDevServer .",
